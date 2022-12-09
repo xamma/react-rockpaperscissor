@@ -2,6 +2,7 @@ body {
   margin: 0px;
   padding: 0px;
   background-color: gray;
+  font-family: "Karla", sans-serif;
 }
 
 .header {
@@ -12,6 +13,11 @@ body {
   background: rgb(53, 53, 52);
   color: white;
   padding: 20px;
+}
+
+.header--nav {
+  margin-right: 30px;
+  font-size: 1.25rem;
 }
 
 .header--title {
@@ -28,4 +34,13 @@ body {
   color: white;
   margin: 5px;
   padding: 5px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: wheat;
 }
