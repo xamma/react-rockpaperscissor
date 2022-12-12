@@ -9,8 +9,8 @@ Add a homepage property in this format: ```https://{username}.github.io/{repo-na
 Add a predeploy property and a deploy property to the scripts object:  
 ```
 "scripts": {
-+   "predeploy": "npm run build",
-+   "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
 ```
