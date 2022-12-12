@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/react-rockpaperscissor/static/css/main.ededf488.css",
-    "main.js": "/react-rockpaperscissor/static/js/main.52baf508.js",
+    "main.js": "/react-rockpaperscissor/static/js/main.2631fea5.js",
     "index.html": "/react-rockpaperscissor/index.html",
     "main.ededf488.css.map": "/react-rockpaperscissor/static/css/main.ededf488.css.map",
-    "main.52baf508.js.map": "/react-rockpaperscissor/static/js/main.52baf508.js.map"
+    "main.2631fea5.js.map": "/react-rockpaperscissor/static/js/main.2631fea5.js.map"
   },
   "entrypoints": [
     "static/css/main.ededf488.css",
-    "static/js/main.52baf508.js"
+    "static/js/main.2631fea5.js"
   ]
 }
