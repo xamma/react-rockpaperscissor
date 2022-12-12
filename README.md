@@ -16,5 +16,5 @@ Add a predeploy property and a deploy property to the scripts object:
 ```
 Deploy the app
 ```
-npm run deploy -- -m "Deploy React app to GitHub Pages"
+npm run deploy -m "Deploy React app to GitHub Pages"
 ```
