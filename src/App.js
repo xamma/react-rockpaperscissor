@@ -23,7 +23,7 @@ function App() {
           path="*"
           element={
             <main style={{ padding: "1rem" }}>
-              <p>There's nothing here!</p>
+              <h1>Hi there! :)</h1>
             </main>
           }
           />
