@@ -28,7 +28,7 @@ const Play = () => {
   const [computerChoice, setComputerChoice] = React.useState("")
   const [result, setResult] = React.useState("")
   const choices = ["ROCK", "PAPER", "SCISSORS"]
-  console.log(userChoice, computerChoice)
+  // console.log(userChoice, computerChoice, result)
 
   function getComputerChoice() {
     const randomChoice = choices[Math.floor(Math.random() * choices.length)]
@@ -57,6 +57,7 @@ const Play = () => {
     setIsChosen(false)
     setUserChoice("")
     setComputerChoice("")
+    setResult("")
   }
 
   React.useEffect(() => {
@@ -64,9 +65,34 @@ const Play = () => {
 
     switch (evaluation) {
       case "ROCKROCK":
+        setResult("Tie! Noone wins, try again.")
+        break;
+      case "PAPERPAPER":
+        setResult("Tie! Noone wins, try again.")
+        break;
+      case "SCISSORSSCISSORS":
+        setResult("Tie! Noone wins, try again.")
+        break;
+      case "ROCKPAPER":
+        setResult("You lose!")
+        break;
+      case "PAPERROCK":
+        setResult("You won! Congratulations.")
+        break;
+      case "ROCKSCISSORS":
+        setResult("You won! Congratulations.")
+        break;
+      case "PAPERSCISSORS":
+        setResult("You lose!")
+        break;
+      case "SCISSORSROCK":
+        setResult("You lose!")
+        break;
+      case "SCISSORSPAPER":
+        setResult("You won! Congratulations.")
         break;
       default:
-
+        setResult("Good luck!")
     }
     
   }, [computerChoice, userChoice])
@@ -88,7 +114,7 @@ const Play = () => {
           SCISSORS
         </Button>
       </div> : "" }
-      <div className='player--choices'>
+      { isChosen ? <div className='player--choices'>
         <div className='player--screen'>
           <h2><icons.user className='user--icon'/> chose: </h2>
           { userChoice === "ROCK" ? <icons.rock /> : "" } 
@@ -101,7 +127,8 @@ const Play = () => {
           { computerChoice === "PAPER" ? <icons.paper /> : "" } 
           { computerChoice === "SCISSORS" ? <icons.scissors /> : "" } 
         </div>
-      </div>
+      </div> : "" }
+      <div className='match--evaluation'>{result}</div>
       { isChosen ? <div className='play--again'>
         <Button onClick={playAgain}>
           Play again

@@ -61,3 +61,21 @@ a:hover {
 .computer--icon {
   color: goldenrod;
 }
+
+.match--evaluation {
+  color: wheat;
+  padding: 20px;
+  font-size: x-large;
+}
+
+.about--screen {
+  padding-left: 15px;
+}
+
+.home--screen {
+  padding-left: 15px;
+}
+
+.github--link {
+  color: gold;
+}
