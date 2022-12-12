@@ -44,3 +44,20 @@ a {
 a:hover {
   color: wheat;
 }
+
+.user--interface {
+  text-align: center;
+}
+
+.interface--greeting {
+  color: wheat;
+  padding-bottom: 20px;
+}
+
+.user--icon {
+  color: goldenrod;
+}
+
+.computer--icon {
+  color: goldenrod;
+}
