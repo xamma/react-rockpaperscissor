@@ -13,7 +13,7 @@ Find the website here: [react-rockpaperscissor](https://xamma.github.io/react-ro
 [python-rockpaperscissor](https://github.com/xamma/python-rockpaperscissor)  
 [Dockerhub](https://hub.docker.com/repository/docker/xamma/python-rockpaperscissor)  
 
-***Java:***
+***Java:***  
 [java-rockpaperscissor](https://github.com/xamma/java-rockpaperscissor)  
 [Dockerhub](https://hub.docker.com/repository/docker/xamma/java-rockpaperscissor)
 
