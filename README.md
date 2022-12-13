@@ -11,11 +11,11 @@ Find the website here: [react-rockpaperscissor](https://xamma.github.io/react-ro
 
 ***Python:***  
 [python-rockpaperscissor](https://github.com/xamma/python-rockpaperscissor)  
-[Dockerhub](https://hub.docker.com/repository/docker/xamma/python-rockpaperscissor)  
+Dockerhub-Image: ```xamma/python-rockpaperscissor```  
 
 ***Java:***  
 [java-rockpaperscissor](https://github.com/xamma/java-rockpaperscissor)  
-[Dockerhub](https://hub.docker.com/repository/docker/xamma/java-rockpaperscissor)
+Dockerhub-Image: ```xamma/java-rockpaperscissor```  
 
 ### Just some notes for setup
 
